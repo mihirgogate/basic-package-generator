@@ -1,0 +1,14 @@
+{
+  "name": "{package_name}",
+  "main": "main",
+  "version": "0.0.0",
+  "keywords": [],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}

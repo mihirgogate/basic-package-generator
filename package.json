@@ -1,0 +1,25 @@
+{
+  "name": "basic-package-generator",
+  "main": "main",
+  "version": "0.0.0",
+  "keywords": [],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "async": "^2.1.5",
+    "fs-plus": "^3.0.0",
+    "replace": "^0.3.0",
+    "tape": "^4.6.3"
+  },
+  "repository": "https://github.com/mihirgogate/basic-package-generator",
+  "configSchema": {
+   "newPackageDirectoryPath": {
+     "default": "",
+     "type": "string",
+     "description": "The directory path in which your packages will be created"
+   }
+ }
+}
